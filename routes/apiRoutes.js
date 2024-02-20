@@ -8,7 +8,6 @@ const existingNotes = JSON.parse(jsonData);
 //get request for existing notes
 router.get('/notes', (req, res) => {
   fs.readFile('./db/db.json', 'utf8', (error, data) => {
-    // error ? console.error(error) : console.log(data)
     if(error) {
         console.log(error);
     }
@@ -21,7 +20,6 @@ router.get('/notes', (req, res) => {
 //post request for notes
 router.post('/notes', (req, res) => {
     fs.readFile('./db/db.json', 'utf8', (error, data) => {
-      // error ? console.error(error) : console.log(data)
       if(error) {
           console.log(error);
       }
