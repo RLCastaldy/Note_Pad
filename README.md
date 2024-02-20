@@ -6,6 +6,17 @@
 
 Simple data entry tool where you can store important notes so you can refer back later.
 
+
+
+https://github.com/RLCastaldy/Note_Pad.git
+
+
+![Screenshot 2024-02-20 165749](https://github.com/RLCastaldy/Note_Pad/assets/140565239/526933eb-76d9-4c79-8fa3-22318bf644a6)
+
+![Screenshot 2024-02-20 165817](https://github.com/RLCastaldy/Note_Pad/assets/140565239/f7b6b495-dcda-42ce-8f3b-c9a658c57a3e)
+
+
+
 ## Table of Contents
 
 - [Installation](#installation)
