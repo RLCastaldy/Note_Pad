@@ -2,7 +2,7 @@
 const router = require('express').Router();
 const fs = require('fs');
 const uuid = require('uuid');
-const jsonData = fs.readFileSync('./db/db.json', 'utf8');
+// const jsonData = fs.readFileSync('./db/db.json', 'utf8');
 let existingNotes = require('../db/db.json')
 
 
@@ -42,27 +42,6 @@ router.post('/notes', (req, res) => {
     console.log(newNote);
     }
   });
-
-
-  //   fs.readFile('./db/db.json', 'utf8', (error, data) => {
-  //     if(error) {
-  //         console.log(error);
-  //     }
-  //     else {
-  //       //   return res.json(JSON.parse(data))
-  //     }
-  //   })
-  //   const { title, text } = req.body;
-
-  //   if(req.body) {
-    
-    
-  //   readAndAppend(newNote, './db/db.json');
-  //   res.json(`Note added successfully`);
-
-  //   console.log(newNote);
-  //   }
-  // });
 
 //export router variable
 module.exports = router;
